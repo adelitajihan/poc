@@ -36,7 +36,7 @@ st.title("🌿 Scanner Penyakit Daun")
 # ==========================
 @st.cache_resource
 def load_model():
-    return YOLO("runs/detect/train/weights/best.pt")
+    return YOLO("best.pt")
     # Kalau modelmu ada di folder yang sama dengan app.py gunakan:
     # return YOLO("best.pt")
 
